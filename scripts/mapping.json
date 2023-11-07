@@ -1,0 +1,11 @@
+{
+    "Framed as a Question": "question",
+    "Help content (examples, pointers, etc.)": "help",
+    "\ufeffCommon EDPub Term": "name",
+    "Common EDPub Term": "name",
+    "Comments": "comments",
+    "Response type (Free text, Controlled: Type)": "type",
+    "Validation": "validation",
+    "Controlled response: Valid source ": "source",
+    "Required Field ": "required"
+}
