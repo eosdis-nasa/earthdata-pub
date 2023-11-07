@@ -1,0 +1,18 @@
+{
+  "name": "get-token",
+  "version": "1.0.0",
+  "description": "Scripts to help get an EDPub authentication token.",
+  "engines": {
+    "node": ">=16"
+  },
+  "main": "get_token.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "3.2.3"
+  }
+}

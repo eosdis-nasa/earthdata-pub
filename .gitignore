@@ -1,0 +1,34 @@
+# system files
+.project
+*.bak
+*log
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# ignore scripts
+*.uglifyjs.sh
+
+# Compiled python
+*.pyc
+
+# pyenv virtualenv auto file
+.python-version
+
+# vs code code intelligence
+.vstags
+
+# vs code workspace settings
+.vscode
+
+*node_modules*
+
+*env.sh*
+!*example-env.sh
