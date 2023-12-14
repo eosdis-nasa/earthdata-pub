@@ -41,7 +41,7 @@ nvm use
 cd ../earthdata-pub-api
 npm install
 npm run build:local
-cd ../upload
+cd ../earthdata-pub-upload
 npm install
 cd ../earthdata-pub-dashboard
 npm install
