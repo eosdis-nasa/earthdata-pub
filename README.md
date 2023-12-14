@@ -37,21 +37,19 @@ clone over http, for example:
 Install, build, and run using npm.
 
 ```bash
-cd earthdata-pub-api
+nvm use
+cd ../earthdata-pub-api
 npm install
 npm run build:local
-npm run start:detached
 cd ../upload
 npm install
 cd ../earthdata-pub-dashboard
 npm install
-npm run start-dashboard
 cd ../earthdata-pub-forms
 npm install
-npm run start-forms
 cd ../earthdata-pub-overview
 npm install
-npm run serve
+npm run start-dev
 ```
 
 Applications should be available at:
