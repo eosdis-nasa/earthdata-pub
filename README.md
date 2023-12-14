@@ -12,22 +12,22 @@ Also see [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md).
 ## Organization
 
 EDPub consists of an API application, three front-end applications (overview,
-dashboard, and forms), and modules.
+dashboard, and forms), extension modules, and a file upload module.
 
 ## Building and running locally
 
-Install node v18.14.1 to build and run EDPub locally. We recommend using [NVM](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/) to install and manage node versions.
-
-```bash
+Install the node version specified in .nvmrc to build and run EDPub locally. 
+We recommend using [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating) to install and manage node versions.
 
 Clone the main EDPub repos.
 
-```bash
+```
 git clone git@github.com:eosdis-nasa/earthdata-pub-api.git
-git clone git@github.com:eosdis-nasa/earthdata-pub-upload.git
+git clone git@github.com:eosdis-nasa/earthdata-pub-overview.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-dashboard.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-forms.git
-git clone git@github.com:eosdis-nasa/earthdata-pub-overview.git
+git clone git@github.com:eosdis-nasa/earthdata-pub-modules.git
+git clone git@github.com:eosdis-nasa/earthdata-pub-upload.git
 ```
 
 VPNs and work networks can prevent ssh cloning. If you are required to use VPN,
@@ -36,7 +36,7 @@ clone over http, for example:
 
 Install, build, and run using npm.
 
-```bash
+```
 cd earthdata-pub-api
 npm install
 npm run build:local
@@ -54,7 +54,7 @@ npm install
 npm run serve
 ```
 
-Applications will be available at:
+Applications should be available at:
 
 | Application | URL |
 | --- | --- |
@@ -69,8 +69,8 @@ The Overview picks the next highest port, so the port may be different.
 
 During the open source approval process, EDPub was required to submit a zipped
 code base. To create that zip, use this command in the directory above the
-earthdatapub repos:
+earthdata-pub repos:
 
-```bash
+```
 zip -r earthdata-pub/edpub-1.0.0.zip . -x */\.* *.git* \.* *.zip *.bak *.swp *.back *.merge **/node_modules/**\* **/bower_components/**\* **/dist/**.* **earthdata-pub**
 ```
