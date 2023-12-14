@@ -9,7 +9,7 @@ Signing into cognito via the api is not as straight-forward as it seems, so the 
 
 Before running any of the scripts, create a env.sh file to hold the necessary environment variables
 
-```
+```bash
 cp example-env.sh env.sh
 ```
 
@@ -19,7 +19,7 @@ Update at least the username and password variables to the appropriate cognito u
 
 To get an authentication token via the bash script, run the following commands:
 
-```
+```bash
 source env.sh
 cd bash
 bash get_token.sh
@@ -29,7 +29,7 @@ bash get_token.sh
 
 To get an authentication token via the python script, run the following commands:
 
-```
+```bash
 source env.sh
 cd python
 pip3 install -r requirements.txt
@@ -40,7 +40,7 @@ python3 get_token.py
 
 Note that the recommended Node version for this script is v16.13.2. To get an authentication token via the node script, run the following commands:
 
-```
+```bash
 source env.sh
 cd node
 nvm use
