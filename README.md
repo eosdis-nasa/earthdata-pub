@@ -21,7 +21,7 @@ We recommend using [NVM](https://github.com/nvm-sh/nvm?tab=readme-ov-file#instal
 
 Clone the main EDPub repos.
 
-```
+```bash
 git clone git@github.com:eosdis-nasa/earthdata-pub-api.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-overview.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-dashboard.git
@@ -36,7 +36,7 @@ clone over http, for example:
 
 Install, build, and run using npm.
 
-```
+```bash
 cd earthdata-pub-api
 npm install
 npm run build:local
@@ -71,6 +71,6 @@ During the open source approval process, EDPub was required to submit a zipped
 code base. To create that zip, use this command in the directory above the
 earthdata-pub repos:
 
-```
+```bash
 zip -r earthdata-pub/edpub-1.0.0.zip . -x */\.* *.git* \.* *.zip *.bak *.swp *.back *.merge **/node_modules/**\* **/bower_components/**\* **/dist/**.* **earthdata-pub**
 ```
