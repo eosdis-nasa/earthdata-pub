@@ -16,6 +16,10 @@ dashboard, and forms), and modules.
 
 ## Building and running locally
 
+Install node v18.14.1 to build and run EDPub locally. We recommend using [NVM](https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/) to install and manage node versions.
+
+```bash
+
 Clone the main EDPub repos.
 
 ```bash
@@ -33,20 +37,19 @@ clone over http, for example:
 Install, build, and run using npm.
 
 ```bash
-cd api
+cd earthdata-pub-api
 npm install
 npm run build:local
 npm run start:detached
 cd ../upload
 npm install
-npm run build
-cd ../dashboard
+cd ../earthdata-pub-dashboard
 npm install
 npm run start-dashboard
-cd ../forms
+cd ../earthdata-pub-forms
 npm install
 npm run start-forms
-cd ../overview
+cd ../earthdata-pub-overview
 npm install
 npm run serve
 ```
