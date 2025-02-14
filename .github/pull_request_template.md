@@ -40,8 +40,6 @@ and validate the expected behavior. (For an example of good validation instructi
 2. Pull related branches locally.
 3. Navigate to... [continue instructions]
 
-
-
 ## Further comments
 
 If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
