@@ -68,3 +68,9 @@ earthdata-pub repos:
 ```bash
 zip -r earthdata-pub/edpub-1.0.0.zip . -x */\.* *.git* \.* *.zip *.bak *.swp *.back *.merge **/node_modules/**\* **/bower_components/**\* **/dist/**.* **earthdata-pub**
 ```
+
+## References
+
+- EOSDIS Slack Channel: #earthdatapub
+- EDPub Wiki: [https://wiki.earthdata.nasa.gov/display/EDPUB/Earthdata+Pub+Home](https://wiki.earthdata.nasa.gov/display/EDPUB/Earthdata+Pub+Home)
+- EDPub Roadmap: [https://wiki.earthdata.nasa.gov/display/EDPUB/EDPub+Feature+Roadmap](https://wiki.earthdata.nasa.gov/display/EDPUB/EDPub+Feature+Roadmap)
