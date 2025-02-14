@@ -9,12 +9,14 @@ Assignees: ''
 
 Does an issue already exist for this?
 Please search 🔍 the issues to check if this bug has already been reported.
+_Put an `x` in the box to confirm_
 
 - [ ] I have searched and no other issue reporting this bug exists.
 
 ## Bug Report
 
 **Environment Detected**
+_Put an `x` in the boxes that apply_
 - [ ] Local
 - [ ] SIT
 - [ ] UAT
