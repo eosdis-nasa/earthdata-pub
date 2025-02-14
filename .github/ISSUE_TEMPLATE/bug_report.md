@@ -1,14 +1,14 @@
 ---
-Name: "\U0001F41B Bug Report"
-About: "If something isn't working as expected."
-Title: ''
-Labels: 'i: bug'
-Assignees: ''
+name: "\U0001F41B Bug Report"
+about: "If something isn't working as expected."
+title: ''
+labels: 'i: bug'
+assignees: ''
 
 ---
 
 Does an issue already exist for this?
-Please search the issues to check if this bug has already been reported.
+Please search 🔍 the issues to check if this bug has already been reported.
 _Put an `x` in the box to confirm_
 
 - [ ] I have searched and no other issue reporting this bug exists.
@@ -37,8 +37,7 @@ A clear and concise description of what you expected to happen (or code).
 ```
 
 **Possible Solution**
-If you have a possible solution to the bug, you can add it here.
-
+<!--- Only if you have suggestions on a fix for the bug -->
 ```
 
 ```
