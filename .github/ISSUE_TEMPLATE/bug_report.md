@@ -8,7 +8,7 @@ Assignees: ''
 ---
 
 Does an issue already exist for this?
-Please search 🔍 the issues to check if this bug has already been reported.
+Please search the issues to check if this bug has already been reported.
 _Put an `x` in the box to confirm_
 
 - [ ] I have searched and no other issue reporting this bug exists.
@@ -37,7 +37,8 @@ A clear and concise description of what you expected to happen (or code).
 ```
 
 **Possible Solution**
-<!--- Only if you have suggestions on a fix for the bug -->
+If you have a possible solution to the bug, you can add it here.
+
 ```
 
 ```
