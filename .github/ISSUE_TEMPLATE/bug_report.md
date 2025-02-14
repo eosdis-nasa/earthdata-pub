@@ -37,7 +37,8 @@ A clear and concise description of what you expected to happen (or code).
 ```
 
 **Possible Solution**
-<!--- Only if you have suggestions on a fix for the bug -->
+If you have a possible solution to the bug, you can add it here.
+
 ```
 
 ```
