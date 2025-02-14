@@ -34,7 +34,7 @@ _Put an `x` in the boxes that apply. You can also fill these out after creating 
 ## Validation Steps
 
 _This will help us get a jump start on validating your PR by describing the steps to replicate
-and validate the expectated behavior. (For an example of good validation instructions, check out [Bryan's Bouncy Ball PR.](https://github.com/sparkbox/bouncy-ball/pull/56#issue-192153701))_
+and validate the expected behavior. (For an example of good validation instructions, check out [Bryan's Bouncy Ball PR.](https://github.com/sparkbox/bouncy-ball/pull/56#issue-192153701))_
 
 1. Make sure all merge request checks have passed (CI/CD).
 2. Pull related branches locally.
