@@ -11,8 +11,8 @@ Also see [`TROUBLESHOOTING.md`](./TROUBLESHOOTING.md).
 
 ## Organization
 
-EDPub consists of an API application, two front-end applications (overview and
-dashboard), extension modules, and a file upload module.
+EDPub consists of an API application, a front-end application (dashboard), extension modules, 
+and a file upload module.
 
 ## Building and running locally
 
@@ -23,7 +23,6 @@ Clone the main EDPub repos.
 
 ```bash
 git clone git@github.com:eosdis-nasa/earthdata-pub-api.git
-git clone git@github.com:eosdis-nasa/earthdata-pub-overview.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-dashboard.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-modules.git
 git clone git@github.com:eosdis-nasa/earthdata-pub-upload.git
@@ -31,7 +30,7 @@ git clone git@github.com:eosdis-nasa/earthdata-pub-upload.git
 
 VPNs and work networks can prevent ssh cloning. If you are required to use VPN,
 clone over http, for example:
-<https://github.com/eosdis-nasa/earthdata-pub-overview.git>
+<https://github.com/eosdis-nasa/earthdata-pub-api.git>
 
 Install, build, and run using npm.
 
@@ -40,11 +39,7 @@ nvm use
 cd ../earthdata-pub-api
 npm install
 npm run build:local
-cd ../earthdata-pub-upload
-npm install
 cd ../earthdata-pub-dashboard
-npm install
-cd ../earthdata-pub-overview
 npm install
 npm run start-dev
 ```
@@ -55,9 +50,6 @@ Applications should be available at:
 | --- | --- |
 | API | <http://localhost:8080> |
 | Dashboard | <http://localhost:3000> |
-| Overview | <http://localhost:8082> |
-
-The Overview picks the next highest port, so the port may be different.
 
 ## Open source release
 
